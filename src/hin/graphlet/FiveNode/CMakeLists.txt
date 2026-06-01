@@ -1,0 +1,33 @@
+
+add_library(FiveNode_lib
+        FiveNode.hpp
+        FiveNodeCalculator.cpp
+        AlmostFiveCliques.cpp
+        ChordalWedgeCollisions.cpp
+        Cobras.cpp
+        DoubleTailedTriangles.cpp
+        FiveCliques.cpp
+        FiveCycles.cpp
+        ForkedTailedTriangles.cpp
+        FourPaths.cpp
+        FourStars.cpp
+        HattedFourCliques.cpp
+        HattedFourCycles.cpp
+        Hourglasses.cpp
+        LongTailedTriangles.cpp
+        Prongs.cpp
+        StellateTridents.cpp
+        Stingrays.cpp
+        TailedFourCliques.cpp
+        TailedFourCycles.cpp
+        ThreeWedgeCollisions.cpp
+        TriangleStrips.cpp
+        Wheels.cpp
+)
+
+target_link_libraries(FiveNode_lib
+        hin_lib
+        GraphletInfo_lib
+        ThreeNode_lib
+        FourNode_lib
+)
