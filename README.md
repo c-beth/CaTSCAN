@@ -19,7 +19,7 @@ It also includes our implementation of the algorithm for typed graphlets followi
 ```bibtex
 @inproceedings{beth2026catscan,
   author    = {Beth, Christian
-               and thor Straten, Mattis
+               and {thor Straten}, Mattis
                and Rodriguez Rasmussen, Felix
                and Najafi, Mohammad Matin
                and Cheng, Reynold
