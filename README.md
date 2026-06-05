@@ -1,6 +1,6 @@
 # CaTSCAN: Calculating Typed Subgraph Counts Analytically for Networks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20555447.svg)](https://doi.org/10.5281/zenodo.20555447) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20555448-blue)](https://doi.org/10.5281/zenodo.20555448) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 CaTSCAN is an efficient algorithm for counting exact frequencies of typed graphlets of up to 5 nodes in heterogeneous information networks. It derives counts of larger graphlets from smaller ones using combinatorics, avoiding excessive enumeration while preserving type information, and outperforms existing typed graphlet solutions by up to 4 orders of magnitude.
 
