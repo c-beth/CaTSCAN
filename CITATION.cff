@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+title: CaTSCAN
+message: >-
+  If you use this software, please cite the accompanying
+  paper using the metadata in the preferred-citation field.
+type: software
+authors:
+  - given-names: Christian
+    family-names: Beth
+    email: cbe@cs.uni-kiel.de
+    affiliation: Kiel University
+    orcid: 'https://orcid.org/0000-0003-3313-0752'
+  - given-names: Mattis
+    family-names: thor Straten
+    email: mts@cs.uni-kiel.de
+    affiliation: Kiel University
+    orcid: 'https://orcid.org/0009-0005-1140-3352'
+  - given-names: Felix
+    family-names: Rodriguez Rasmussen
+    email: felixrodriguezrasmussen@cs.uni-kiel.de
+    affiliation: Kiel University
+    orcid: 'https://orcid.org/0009-0006-5938-6704'
+  - given-names: Mohammad Matin
+    family-names: Najafi
+    email: matin@cs.hku.hk
+    affiliation: University of Hong Kong
+    orcid: 'https://orcid.org/0009-0005-0564-0458'
+  - given-names: Reynold
+    family-names: Cheng
+    email: ckcheng@cs.hku.hk
+    affiliation: University of Hong Kong
+    orcid: 'https://orcid.org/0000-0002-9480-9809'
+  - given-names: Matthias
+    family-names: Renz
+    email: mr@cs.uni-kiel.de
+    affiliation: Kiel University
+    orcid: 'https://orcid.org/0000-0002-2024-7700'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20555447
+    description: The concept DOI of the work.
+repository-code: 'https://github.com/c-beth/CaTSCAN'
+abstract: >-
+  CaTSCAN is an efficient algorithm for counting exact
+  frequencies of typed graphlets of up to 5 nodes in
+  heterogeneous information networks. It derives counts of
+  larger graphlets from smaller ones using combinatorics,
+  avoiding excessive enumeration while preserving type
+  information.
+keywords:
+  - Subgraph counting
+  - Heterogeneous networks
+  - Graphlet
+  - Motif Discovery
+license: MIT
+version: v0.9.0
+date-released: '2026-06-05'
+preferred-citation:
+  type: conference-paper
+  title: "CaTSCAN: Calculating Typed Subgraph Counts Analytically for Networks"
+  authors:
+    - given-names: Christian
+      family-names: Beth
+    - given-names: Mattis
+      family-names: thor Straten
+    - given-names: Felix
+      family-names: Rodriguez Rasmussen
+    - given-names: Mohammad Matin
+      family-names: Najafi
+    - given-names: Reynold
+      family-names: Cheng
+    - given-names: Matthias
+      family-names: Renz
+  collection-title: "Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)"
+  year: 2026
+  notes: "In press"
