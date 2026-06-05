@@ -16,10 +16,12 @@ It also includes our implementation of the algorithm for typed graphlets followi
 
 ## Citation
 
+If you use CaTSCAN in your work, please cite the accompanying paper. If you use the code specifically, please also cite the software release.
+
 ```bibtex
 @inproceedings{beth2026catscan,
   author    = {Beth, Christian
-               and thor Straten, Mattis
+               and {thor Straten}, Mattis
                and Rodriguez Rasmussen, Felix
                and Najafi, Mohammad Matin
                and Cheng, Reynold
@@ -32,6 +34,21 @@ It also includes our implementation of the algorithm for typed graphlets followi
   note      = {In press}
 }
 ```
+
+```bibtex
+@software{beth2026catscan_code,
+  author    = {Beth, Christian
+               and {thor Straten}, Mattis
+               and Rodriguez Rasmussen, Felix
+               and Najafi, Mohammad Matin
+               and Cheng, Reynold and Renz, Matthias},
+  title     = {{CaTSCAN} -- Code},
+  year      = {2026},
+  url       = {https://github.com/c-beth/CaTSCAN}
+}
+```
+
+The code is available under the [MIT License](LICENSE).
 
 <br>
 
